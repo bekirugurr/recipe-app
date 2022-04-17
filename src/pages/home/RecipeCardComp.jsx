@@ -36,14 +36,18 @@ const savedIconStyle = {
   cursor: "pointer",
 };
 
-const RecipeCardComp = ({ recipe, jsonData }) => {
-  const [isLiked, setIsLiked] = useState(false);
-  const [isSaved, setIsSaved] = useState(false);
-  const [isPosted, setIsPosted] = useState(false);
-  const [recipeId, setRecipeId] = useState("");
-  const [isHideShareBar, setIsHideShareBar] = useState(true);
+const RecipeCardComp = ({ recipe, jsonData, savedFood }) => {
 
-  console.log(isLiked, isSaved);
+  const [isLiked, setIsLiked] = useState(savedFood ? savedFood.isLiked : false);
+  const [isSaved, setIsSaved] = useState(savedFood ? savedFood.isSaved : false);
+  const [isPosted, setIsPosted] = useState(savedFood ? true : false);
+  const [recipeId, setRecipeId] = useState(savedFood ? savedFood.id : "");
+
+  const [isHideShareBar, setIsHideShareBar] = useState(true); 
+  const [isDisplay, setIsDisplay] = useState('flex')
+
+  console.log(recipe);
+  console.log(savedFood, isLiked, isSaved);
 
   let navigate = useNavigate();
   const moreClick = () => {
@@ -69,6 +73,7 @@ const RecipeCardComp = ({ recipe, jsonData }) => {
         isSaved: isSaved,
         card: {
           label: recipe.label,
+          uri: recipe.uri,
           image: recipe.image,
           cuisineType: recipe.cuisineType,
           ingredients: recipe.ingredientLines,
@@ -92,20 +97,22 @@ const RecipeCardComp = ({ recipe, jsonData }) => {
         isSaved: isSaved,
         card: {
           label: recipe.label,
+          uri: recipe.uri,
           image: recipe.image,
           cuisineType: recipe.cuisineType,
           ingredients: recipe.ingredientLines,
           nutrients: recipe.totalDaily,
-        },
-      })
-      .then((res) => {
-        console.log(res.data);
+        }, 
+      }) 
+      .then((res) => { 
+        console.log(res.data); 
       })
       .catch((error) => console.log("addJsonData error -->", error));
   };
 
   useEffect(() => {
-    jsonData.map((data) => {
+    console.log('jsondata ------>', jsonData);
+    jsonData?.map((data) => {
       if (data.uri === recipe.uri) {
         setIsLiked(data.isLiked);
         setIsSaved(data.isSaved);
@@ -130,13 +137,17 @@ const RecipeCardComp = ({ recipe, jsonData }) => {
     isPosted
       ? changeJsonData(recipeId, recipe.uri, isLiked, !isSaved, recipe)
       : addJsonData(recipe.uri, isLiked, !isSaved, recipe);
-    setIsSaved(!isSaved);
+    setIsSaved(!isSaved); 
+
+    if (savedFood){
+      setIsDisplay('none')
+    }
   };
 
-  //! share iconuna tıklandığında share bar ının görünmesi barın üzerinden onMouseOut yapıldığında barın gizlenmesi
+  console.log('isDisplay', isDisplay);
 
   return (
-    <RecipeCard onClick={moreClick}>
+    <RecipeCard onClick={moreClick} style={{display: isDisplay}}>
       <RecipeCuisine>
         {recipe.cuisineType[0].toUpperCase()} CUISINE
       </RecipeCuisine>
@@ -196,34 +207,3 @@ const RecipeCardComp = ({ recipe, jsonData }) => {
 };
 
 export default RecipeCardComp;
-
-//! BURAYI SOR
-
-// let likedFoodsIds = JSON.parse(localStorage.getItem("likedFoods"))
-//     ?? [];
-
-// let locelIsLike = likedFoodsIds.includes(recipe.label)
-// console.log(locelIsLike);
-
-// if (locelIsLike) {
-//   setIsLiked(true);
-// }
-
-//   useEffect(() => {
-//     if (isLiked) {
-//       likedFoodsIds.push(recipe.label);
-//       localStorage.setItem("likedFoods", JSON.stringify(likedFoodsIds));
-//       console.log(likedFoodsIds);
-//     } else {
-//       const recipeIndex = likedFoodsIds?.findIndex((item)=>item==recipe.label)
-//       likedFoodsIds.splice(recipeIndex, 1);
-//       // let newLikedFoodsIds = likedFoodsIds.filter(
-//       //   (item) => item != recipe.label
-//       // );
-//       localStorage.setItem("likedFoods", JSON.stringify(likedFoodsIds));
-//     }
-//   }, [isLiked]);
-
-// localStorage.setItem("likedFoods", JSON.stringify(['Egg Nests recipes', 'Egg Pancakes' ]));
-// let deneme = JSON.parse(localStorage.getItem('likedFoods'))
-// console.log(deneme)

@@ -2,450 +2,218 @@
   "foods": [
     {
       "id": 1,
+      "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_733ed0d22ad7f737ef9d149726a303ff",
+      "isLiked": false,
+      "isSaved": false,
+      "card": {
+        "label": "Apple-Lemon-Ginger Juice",
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_733ed0d22ad7f737ef9d149726a303ff",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/184/184c38df36206ae9374cd8e7957d85b1.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBQaCXVzLWVhc3QtMSJIMEYCIQCp20Id76fUxtxOFHoVfQgSZeMmP65sFbhlEPpx5YMpSgIhAOG%2BRrHGsIhyoIbOMFsS8sIh%2B0dTNaZj7sBcD2ZhqoUeKoMECL3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2Igy9Ksw0muAQ4L17Thgq1wNpk1nZfgmYKwv%2BKRnIrRMkQ9mcJsuqj%2BcNwUYJue7wH0LmUUL2DwN%2BEVA8qy1oBiZRMR%2Fw4Nm9RwcoO2uEJaFUOI04lgbGas6EoXGBppPDcS7vQ1cdQ9BXvWNPnYwoZ%2BvVU1XznRc1uUZyDJqUpzz05vPdopwhU6C05pU1sJC8S8CxmxnFf73d29JPdm23ooaB%2FmKDefALr0ENbuZxs%2Bu4TENItm3%2Bda6eH9LcYvzAyedy59Jd0ikCqNkZq4V2DeP%2FLBOTR2ymuUN30nX%2Bu7dXYxjhF0CgvBpbWitgs1FZ9rNP3aCTJ8F8aMYncLTxNISEU9oS1ji60Ln7%2FzCV0lw16x2GkgWdwsQP%2FKlb7kuATRRoY1NKlQXuuVLFMBVONPzfUQfMXJwVDXRN0XslMmG4XPROGrCeSR3gZeHDfNwl%2Fzh7HQ0CZ642GnEIbaZVL4mBhkEs8vwJlFB%2Fg4MAgUzjOmJ7l9wqXiZ5dvOp4rRBuSwIvX2MpUEzk13ro4qwNoC16lgPErpDGPzjT3FdFKodn4Ipyrp8qSYmEJ7%2F8cRyE32mWEFWj2MPVYdJRd3grARL6Rn%2BZxwk6DJDzTSHYOjP%2BjP2xc41OYiSwmEvjn8breHeHp85yMgw9%2FPvkgY6pAFaOAZLpzJNWO6LYOz6krIQOe23UEUbzPUA1tku4UNxI9QTMLyNLFuGOshj8WCsjAsUdlMlC1wZpmi60C7Qd478FX4Vo2UijVobTt6mqdi%2FpL%2BpfbZJBmsLbXPwKPEnymWCpPJJ2FbnGYJtELJIRrmVQM69vrm7z8x0vjLjB678zvpgKldakGDbJbF5%2FiJ%2BS2LCKUOqD6yxKI%2BQX%2F16%2B1Ddl6yDAg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220417T115334Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFFEGUUO4L%2F20220417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=46c865ce3dae1f9348bbc2e01046d9885316a346086f7eb75ada4b1fd0d42c90",
+        "cuisineType": [
+          "american"
+        ]
+      }
+    },
+    {
+      "id": 2,
       "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_a82a9929e787d0ddf7adf3c5c5ce5286",
-      "isLiked": true,
-      "isSaved": true,
+      "isLiked": false,
+      "isSaved": false,
       "card": {
         "label": "Apple Cheese Wraps",
-        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/a66/a66c59fa7e7ef5cda2e145060748f905.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBIaCXVzLWVhc3QtMSJHMEUCIQC6WZ%2Bi1BJzXLImEfOt8oLuE2fPKWgomxkwJJyFTFMuVQIgZX3nlDUM4tmIGQJO4IdlosPt2S8VTMDQHEVSC1NGEAgqgwQIu%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwxODcwMTcxNTA5ODYiDGa37TdjHT4w91vvYyrXAxoqqAZWLg4amA0a6RRkyb8KSlNdAhwINwh3ROP1%2B4aXxRNkv7EoJYSseCHPUbZHYRgZHgwWfLR%2FCoKPq3kUzlHlVRIiVIDSf66jKpureG8Ml8tX%2BZsXUpIabl4DyzYBmrQXD3HFOV5UWOwQxMbMGJgSY7l3xCOtUSd%2BjGS0eHCKbpim7PI%2FClSLsqSj2pT0uXvWvn1hrBYgjTcnMNscol6dWHYXaed%2BUUrBFUO9Iqm4mX1P0B8pfGM%2BYxKwajqAvJbnIr5ptRJ0v6x8JGeXXRd3GM8YTgVtPZah16%2FQyoOGkzJxT7lZRzt6nXq8Mkdi7DnfsT5qUQjSCZqatkloYMUWR4gBxVMzvW67CZ94kp6xLQWk6RtTLoB38ZYl29ahZxfQ8KixElbdJZ%2BZtRTvuFox1yp6fPos6GoBFv1W6P8jVJf7GL9%2FeTHBox2cokRb1GeaHz%2FuPI8y%2FWI2xo8RibSF1u9AeZv%2FcskamVlhXy25Epix%2FVOp5Q0qr1%2BqGPn6f0k5%2BYhI40WtrNTcv3BquuRPmvNJn4mWIUazh4lTtPZaihSgUv7FRy185sEfCzL0NFNG%2BREiZUe5rOg%2FL50O692BTynMitjcJTHpjtv0JwiqCo2MLNuMKzC%2BvO%2BSBjqlAUnfaXPpEVHsYdExKefU29f4h2h5MCSRHvMcx%2Bzd7zjjjpn9%2F9zRHS%2BYBWqha6%2FUOB0lYad5HjfAshOX%2FvbowxY04vsay%2BeyTaXympNsTGsQNKzBJTdczwPxMMpu%2B%2B2r0dJ7C7n8qEUdoc5xYUyyLF9g%2BlFrdwlmwdvfrvI9ciCihcmgKi0iRToY9NSnolTDDVog3bhzfOYYiG%2B%2F%2BsSmq5mNgYigQg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220417T103308Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFN32ZERSY%2F20220417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7729a6702e948bcaa85e748f6bfb7d4bacf6582b99bb7eced4d592fa62be2812",
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_a82a9929e787d0ddf7adf3c5c5ce5286",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/a66/a66c59fa7e7ef5cda2e145060748f905.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBQaCXVzLWVhc3QtMSJIMEYCIQCp20Id76fUxtxOFHoVfQgSZeMmP65sFbhlEPpx5YMpSgIhAOG%2BRrHGsIhyoIbOMFsS8sIh%2B0dTNaZj7sBcD2ZhqoUeKoMECL3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2Igy9Ksw0muAQ4L17Thgq1wNpk1nZfgmYKwv%2BKRnIrRMkQ9mcJsuqj%2BcNwUYJue7wH0LmUUL2DwN%2BEVA8qy1oBiZRMR%2Fw4Nm9RwcoO2uEJaFUOI04lgbGas6EoXGBppPDcS7vQ1cdQ9BXvWNPnYwoZ%2BvVU1XznRc1uUZyDJqUpzz05vPdopwhU6C05pU1sJC8S8CxmxnFf73d29JPdm23ooaB%2FmKDefALr0ENbuZxs%2Bu4TENItm3%2Bda6eH9LcYvzAyedy59Jd0ikCqNkZq4V2DeP%2FLBOTR2ymuUN30nX%2Bu7dXYxjhF0CgvBpbWitgs1FZ9rNP3aCTJ8F8aMYncLTxNISEU9oS1ji60Ln7%2FzCV0lw16x2GkgWdwsQP%2FKlb7kuATRRoY1NKlQXuuVLFMBVONPzfUQfMXJwVDXRN0XslMmG4XPROGrCeSR3gZeHDfNwl%2Fzh7HQ0CZ642GnEIbaZVL4mBhkEs8vwJlFB%2Fg4MAgUzjOmJ7l9wqXiZ5dvOp4rRBuSwIvX2MpUEzk13ro4qwNoC16lgPErpDGPzjT3FdFKodn4Ipyrp8qSYmEJ7%2F8cRyE32mWEFWj2MPVYdJRd3grARL6Rn%2BZxwk6DJDzTSHYOjP%2BjP2xc41OYiSwmEvjn8breHeHp85yMgw9%2FPvkgY6pAFaOAZLpzJNWO6LYOz6krIQOe23UEUbzPUA1tku4UNxI9QTMLyNLFuGOshj8WCsjAsUdlMlC1wZpmi60C7Qd478FX4Vo2UijVobTt6mqdi%2FpL%2BpfbZJBmsLbXPwKPEnymWCpPJJ2FbnGYJtELJIRrmVQM69vrm7z8x0vjLjB678zvpgKldakGDbJbF5%2FiJ%2BS2LCKUOqD6yxKI%2BQX%2F16%2B1Ddl6yDAg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220417T115334Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFFEGUUO4L%2F20220417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=873c2d53eafe03858723b8610712cc9cae436032e1313629846288e26ab580c2",
+        "cuisineType": [
+          "american"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_1f3d0f0c02ccf13075ef5bea63f8a63a",
+      "isLiked": false,
+      "isSaved": false,
+      "card": {
+        "label": "Apple Quesadillas",
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_1f3d0f0c02ccf13075ef5bea63f8a63a",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/b1c/b1ce7a7440d581160b61105c7986d8eb.jpeg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBQaCXVzLWVhc3QtMSJIMEYCIQCp20Id76fUxtxOFHoVfQgSZeMmP65sFbhlEPpx5YMpSgIhAOG%2BRrHGsIhyoIbOMFsS8sIh%2B0dTNaZj7sBcD2ZhqoUeKoMECL3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2Igy9Ksw0muAQ4L17Thgq1wNpk1nZfgmYKwv%2BKRnIrRMkQ9mcJsuqj%2BcNwUYJue7wH0LmUUL2DwN%2BEVA8qy1oBiZRMR%2Fw4Nm9RwcoO2uEJaFUOI04lgbGas6EoXGBppPDcS7vQ1cdQ9BXvWNPnYwoZ%2BvVU1XznRc1uUZyDJqUpzz05vPdopwhU6C05pU1sJC8S8CxmxnFf73d29JPdm23ooaB%2FmKDefALr0ENbuZxs%2Bu4TENItm3%2Bda6eH9LcYvzAyedy59Jd0ikCqNkZq4V2DeP%2FLBOTR2ymuUN30nX%2Bu7dXYxjhF0CgvBpbWitgs1FZ9rNP3aCTJ8F8aMYncLTxNISEU9oS1ji60Ln7%2FzCV0lw16x2GkgWdwsQP%2FKlb7kuATRRoY1NKlQXuuVLFMBVONPzfUQfMXJwVDXRN0XslMmG4XPROGrCeSR3gZeHDfNwl%2Fzh7HQ0CZ642GnEIbaZVL4mBhkEs8vwJlFB%2Fg4MAgUzjOmJ7l9wqXiZ5dvOp4rRBuSwIvX2MpUEzk13ro4qwNoC16lgPErpDGPzjT3FdFKodn4Ipyrp8qSYmEJ7%2F8cRyE32mWEFWj2MPVYdJRd3grARL6Rn%2BZxwk6DJDzTSHYOjP%2BjP2xc41OYiSwmEvjn8breHeHp85yMgw9%2FPvkgY6pAFaOAZLpzJNWO6LYOz6krIQOe23UEUbzPUA1tku4UNxI9QTMLyNLFuGOshj8WCsjAsUdlMlC1wZpmi60C7Qd478FX4Vo2UijVobTt6mqdi%2FpL%2BpfbZJBmsLbXPwKPEnymWCpPJJ2FbnGYJtELJIRrmVQM69vrm7z8x0vjLjB678zvpgKldakGDbJbF5%2FiJ%2BS2LCKUOqD6yxKI%2BQX%2F16%2B1Ddl6yDAg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220417T115334Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFFEGUUO4L%2F20220417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f58a2f5b5e0c9630ed6c6308fca1ac109867d039d116dc9299ca4218bc942a26",
+        "cuisineType": [
+          "mexican"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_4f1d223cf3c5f30b53c6d972d2ea98ec",
+      "isLiked": true,
+      "isSaved": false,
+      "card": {
+        "label": "Egg Nests recipes",
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_4f1d223cf3c5f30b53c6d972d2ea98ec",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/4ea/4ea44da2c9c5b7f712b4a93840a2607d?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBUaCXVzLWVhc3QtMSJHMEUCIEep1abKXIhyydwOT9cihuWrMGe2q8KNRIcgmwTe2GuOAiEA7FkDt0m0eQw7F6owkejC36SDpNHKlisXYUgMuq3wYc8qgwQIvv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwxODcwMTcxNTA5ODYiDPdLat2SAfBKKKEBvCrXA8EkpdV2FXaWv9Om%2Fi9jRtk5MPzSFmFUnIOXKfR8D%2BA0VZq1R1nEyHqfUNsOnE%2FL6WFgJ%2Boj%2BDmUVcXOKgEw2SSkH556FdDJkUdCi3Z56fsGkyhJ%2BEe%2Fw9zh%2B%2BgjHmXz%2FqgfhuTeYah2LTY23d2%2Fz1%2Belgrm9%2Frzb9KgsSuFmwSkbLiOH77C4sRswtJbOA3LcnigKRLjBvms57eHJsb0Z4g8HPIemY5NkSsgxUEl66rScoa0yYMdmiGSIF43HMNIz64l3PbZ0UvjmSoI%2F3tdb%2Bvp1nprJb75ks8w5KLf4XZheiEcsAlZsEq1WF00T3tWOizfFBzTfHkvR3h0Cur3nIYuJIOHyyuw8pJZgQDS%2BlfAtt%2FvsWSvxldJ%2FqYAJ0zRjwQo826RfLssGt%2Fqx98rcsDBHzPxiLwm%2B4WtoFvwg%2F2f7RCkGFvB1g5uoRv2DaFJ1BT084hgooI14Uy0xIZPJBDhUPBZ7%2F%2B533fz0nA6Oqn7d2FMuqlTZ%2BwR43OUzj9jUb9Kt1H9CzVu%2B57KvDiLpKBijLtokmIl9hjxTapve553qZHwfd6hX8vt0u1HuICA081YTcz%2BXW55%2FuDxxDYk5HcwhzArLGT7PP01MZG2hgde1S%2Bhhtc5ajDFlfCSBjqlAckJBJ2VsHVLFdYf25n9vd7R%2FugsonNL4dVQwdOlcXz1GVUKRd89RCXaKV7mnSkG7kn6X3xvgPFgx30XYC%2FegNKY5G%2F7t9CoMorL5O4HqD4MH7W262qkDPyvPwxpAqQZDCHbCRS2ZYqGYI8lp6nPebhH5FlrIWxO%2BvnQnIZmTdoyXWMOA%2BnDSEvg9Jp7bcvHNhn1m9aOGFyVt33WwQg0POUhS1H2%2Bg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220417T124811Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFCY4Z66VT%2F20220417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=670f84ca956405fe5677d87b5efcb9a17d5336393174af7ecdc8c3845c6d919c",
+        "cuisineType": [
+          "american"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_555ecd7b216b8fa941384415a8053d61",
+      "isLiked": false,
+      "isSaved": true,
+      "card": {
+        "label": "Egg Pancakes",
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_555ecd7b216b8fa941384415a8053d61",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/e54/e5458b2969f07a9315a474fc842f035c.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBUaCXVzLWVhc3QtMSJHMEUCIEep1abKXIhyydwOT9cihuWrMGe2q8KNRIcgmwTe2GuOAiEA7FkDt0m0eQw7F6owkejC36SDpNHKlisXYUgMuq3wYc8qgwQIvv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwxODcwMTcxNTA5ODYiDPdLat2SAfBKKKEBvCrXA8EkpdV2FXaWv9Om%2Fi9jRtk5MPzSFmFUnIOXKfR8D%2BA0VZq1R1nEyHqfUNsOnE%2FL6WFgJ%2Boj%2BDmUVcXOKgEw2SSkH556FdDJkUdCi3Z56fsGkyhJ%2BEe%2Fw9zh%2B%2BgjHmXz%2FqgfhuTeYah2LTY23d2%2Fz1%2Belgrm9%2Frzb9KgsSuFmwSkbLiOH77C4sRswtJbOA3LcnigKRLjBvms57eHJsb0Z4g8HPIemY5NkSsgxUEl66rScoa0yYMdmiGSIF43HMNIz64l3PbZ0UvjmSoI%2F3tdb%2Bvp1nprJb75ks8w5KLf4XZheiEcsAlZsEq1WF00T3tWOizfFBzTfHkvR3h0Cur3nIYuJIOHyyuw8pJZgQDS%2BlfAtt%2FvsWSvxldJ%2FqYAJ0zRjwQo826RfLssGt%2Fqx98rcsDBHzPxiLwm%2B4WtoFvwg%2F2f7RCkGFvB1g5uoRv2DaFJ1BT084hgooI14Uy0xIZPJBDhUPBZ7%2F%2B533fz0nA6Oqn7d2FMuqlTZ%2BwR43OUzj9jUb9Kt1H9CzVu%2B57KvDiLpKBijLtokmIl9hjxTapve553qZHwfd6hX8vt0u1HuICA081YTcz%2BXW55%2FuDxxDYk5HcwhzArLGT7PP01MZG2hgde1S%2Bhhtc5ajDFlfCSBjqlAckJBJ2VsHVLFdYf25n9vd7R%2FugsonNL4dVQwdOlcXz1GVUKRd89RCXaKV7mnSkG7kn6X3xvgPFgx30XYC%2FegNKY5G%2F7t9CoMorL5O4HqD4MH7W262qkDPyvPwxpAqQZDCHbCRS2ZYqGYI8lp6nPebhH5FlrIWxO%2BvnQnIZmTdoyXWMOA%2BnDSEvg9Jp7bcvHNhn1m9aOGFyVt33WwQg0POUhS1H2%2Bg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220417T124811Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFCY4Z66VT%2F20220417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=280449c0b48e507c5bfa7621d78d40ef37d5dc13783ed6a4a197913cdbe10816",
         "cuisineType": [
           "american"
         ],
         "ingredients": [
-          "1 granny smith apple",
-          "1 slice lemon",
-          "2 slices cheddar cheese, cut in half",
-          "2 slices deli turkey or ham, cut in half"
+          "1 large egg",
+          "1 pinch salt",
+          "2 tablespoons all-purpose flour",
+          "¼ cup milk (whole preferable)",
+          "butter for frying",
+          "brown sugar or other topping"
         ],
         "nutrients": {
           "ENERC_KCAL": {
             "label": "Energy",
-            "quantity": 28.712400000000002,
+            "quantity": 15.480483414026775,
             "unit": "%"
           },
           "FAT": {
             "label": "Fat",
-            "quantity": 43.79836923076923,
+            "quantity": 34.65867497840268,
             "unit": "%"
           },
           "FASAT": {
             "label": "Saturated",
-            "quantity": 66.03150000000001,
+            "quantity": 63.14153063133292,
             "unit": "%"
           },
           "CHOCDF": {
             "label": "Carbs",
-            "quantity": 10.040486666666666,
+            "quantity": 5.572652680141996,
             "unit": "%"
           },
           "FIBTG": {
             "label": "Fiber",
-            "quantity": 26.051199999999998,
+            "quantity": 1.6874999999714686,
             "unit": "%"
           },
           "PROCNT": {
             "label": "Protein",
-            "quantity": 98.98528,
+            "quantity": 19.96253239057099,
             "unit": "%"
           },
           "CHOLE": {
             "label": "Cholesterol",
-            "quantity": 57.44,
+            "quantity": 77.85022994794038,
             "unit": "%"
           },
           "NA": {
             "label": "Sodium",
-            "quantity": 22.61441666666667,
+            "quantity": 10.310463187039169,
             "unit": "%"
           },
           "CA": {
             "label": "Calcium",
-            "quantity": 41.94100000000001,
+            "quantity": 10.525702562508618,
             "unit": "%"
           },
           "MG": {
             "label": "Magnesium",
-            "quantity": 16.30714285714286,
+            "quantity": 3.82477512399546,
             "unit": "%"
           },
           "K": {
             "label": "Potassium",
-            "quantity": 14.691914893617021,
+            "quantity": 3.67921752215817,
             "unit": "%"
           },
           "FE": {
             "label": "Iron",
-            "quantity": 11.530555555555555,
+            "quantity": 9.079063385357546,
             "unit": "%"
           },
           "ZN": {
             "label": "Zinc",
-            "quantity": 44.304,
+            "quantity": 9.075126169495427,
             "unit": "%"
           },
           "P": {
             "label": "Phosphorus",
-            "quantity": 83.98742857142858,
+            "quantity": 24.543288035674674,
             "unit": "%"
           },
           "VITA_RAE": {
             "label": "Vitamin A",
-            "quantity": 20.421111111111117,
+            "quantity": 26.659003541691806,
             "unit": "%"
           },
           "VITC": {
             "label": "Vitamin C",
-            "quantity": 34.15555555555556,
+            "quantity": 0,
             "unit": "%"
           },
           "THIA": {
             "label": "Thiamin (B1)",
-            "quantity": 12.357833333333335,
+            "quantity": 14.306684960764823,
             "unit": "%"
           },
           "RIBF": {
             "label": "Riboflavin (B2)",
-            "quantity": 45.714615384615385,
+            "quantity": 31.948653293169706,
             "unit": "%"
           },
           "NIA": {
             "label": "Niacin (B3)",
-            "quantity": 78.18397500000002,
+            "quantity": 6.400398829980746,
             "unit": "%"
           },
           "VITB6A": {
             "label": "Vitamin B6",
-            "quantity": 84.37246153846154,
+            "quantity": 8.849095949510449,
             "unit": "%"
           },
           "FOLDFE": {
             "label": "Folate equivalent (total)",
-            "quantity": 8.035,
+            "quantity": 18.153093085745564,
             "unit": "%"
           },
           "VITB12": {
             "label": "Vitamin B12",
-            "quantity": 101.86666666666666,
+            "quantity": 31.34479016927318,
             "unit": "%"
           },
           "VITD": {
             "label": "Vitamin D",
-            "quantity": 5.44,
+            "quantity": 13.881272395836643,
             "unit": "%"
           },
           "TOCPHA": {
             "label": "Vitamin E",
-            "quantity": 6.547200000000001,
+            "quantity": 7.006129083334398,
             "unit": "%"
           },
           "VITK1": {
             "label": "Vitamin K",
-            "quantity": 6.009333333333333,
+            "quantity": 1.441193619792936,
             "unit": "%"
           }
         }
       }
     },
     {
-      "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_733ed0d22ad7f737ef9d149726a303ff",
-      "isLiked": false,
-      "isSaved": true,
-      "card": {
-        "label": "Apple-Lemon-Ginger Juice",
-        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/184/184c38df36206ae9374cd8e7957d85b1.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBIaCXVzLWVhc3QtMSJHMEUCIQC6WZ%2Bi1BJzXLImEfOt8oLuE2fPKWgomxkwJJyFTFMuVQIgZX3nlDUM4tmIGQJO4IdlosPt2S8VTMDQHEVSC1NGEAgqgwQIu%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwxODcwMTcxNTA5ODYiDGa37TdjHT4w91vvYyrXAxoqqAZWLg4amA0a6RRkyb8KSlNdAhwINwh3ROP1%2B4aXxRNkv7EoJYSseCHPUbZHYRgZHgwWfLR%2FCoKPq3kUzlHlVRIiVIDSf66jKpureG8Ml8tX%2BZsXUpIabl4DyzYBmrQXD3HFOV5UWOwQxMbMGJgSY7l3xCOtUSd%2BjGS0eHCKbpim7PI%2FClSLsqSj2pT0uXvWvn1hrBYgjTcnMNscol6dWHYXaed%2BUUrBFUO9Iqm4mX1P0B8pfGM%2BYxKwajqAvJbnIr5ptRJ0v6x8JGeXXRd3GM8YTgVtPZah16%2FQyoOGkzJxT7lZRzt6nXq8Mkdi7DnfsT5qUQjSCZqatkloYMUWR4gBxVMzvW67CZ94kp6xLQWk6RtTLoB38ZYl29ahZxfQ8KixElbdJZ%2BZtRTvuFox1yp6fPos6GoBFv1W6P8jVJf7GL9%2FeTHBox2cokRb1GeaHz%2FuPI8y%2FWI2xo8RibSF1u9AeZv%2FcskamVlhXy25Epix%2FVOp5Q0qr1%2BqGPn6f0k5%2BYhI40WtrNTcv3BquuRPmvNJn4mWIUazh4lTtPZaihSgUv7FRy185sEfCzL0NFNG%2BREiZUe5rOg%2FL50O692BTynMitjcJTHpjtv0JwiqCo2MLNuMKzC%2BvO%2BSBjqlAUnfaXPpEVHsYdExKefU29f4h2h5MCSRHvMcx%2Bzd7zjjjpn9%2F9zRHS%2BYBWqha6%2FUOB0lYad5HjfAshOX%2FvbowxY04vsay%2BeyTaXympNsTGsQNKzBJTdczwPxMMpu%2B%2B2r0dJ7C7n8qEUdoc5xYUyyLF9g%2BlFrdwlmwdvfrvI9ciCihcmgKi0iRToY9NSnolTDDVog3bhzfOYYiG%2B%2F%2BsSmq5mNgYigQg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220417T103308Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFN32ZERSY%2F20220417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=929e115c0b6d8811d015faf116b3142866c95eb51d59e0ee4731bac34592cdfc",
-        "cuisineType": [
-          "american"
-        ],
-        "ingredients": [
-          "1 Fuji apple, preferably unwaxed",
-          "1 Granny Smith apple, preferably unwaxed",
-          "1 lemon, peeled (including the white pith)",
-          "1 (1/2-inch) piece fresh ginger, peeled"
-        ],
-        "nutrients": {
-          "ENERC_KCAL": {
-            "label": "Energy",
-            "quantity": 12.714799999999999,
-            "unit": "%"
-          },
-          "FAT": {
-            "label": "Fat",
-            "quantity": 1.4971076923076923,
-            "unit": "%"
-          },
-          "FASAT": {
-            "label": "Saturated",
-            "quantity": 0.26535,
-            "unit": "%"
-          },
-          "CHOCDF": {
-            "label": "Carbs",
-            "quantity": 20.613745185185188,
-            "unit": "%"
-          },
-          "FIBTG": {
-            "label": "Fiber",
-            "quantity": 43.81226666666667,
-            "unit": "%"
-          },
-          "PROCNT": {
-            "label": "Protein",
-            "quantity": 4.147102222222222,
-            "unit": "%"
-          },
-          "CHOLE": {
-            "label": "Cholesterol",
-            "quantity": 0,
-            "unit": "%"
-          },
-          "NA": {
-            "label": "Sodium",
-            "quantity": 0.2844814814814815,
-            "unit": "%"
-          },
-          "CA": {
-            "label": "Calcium",
-            "quantity": 4.001088888888889,
-            "unit": "%"
-          },
-          "MG": {
-            "label": "Magnesium",
-            "quantity": 7.066137566137567,
-            "unit": "%"
-          },
-          "K": {
-            "label": "Potassium",
-            "quantity": 12.05765011820331,
-            "unit": "%"
-          },
-          "FE": {
-            "label": "Iron",
-            "quantity": 4.983641975308641,
-            "unit": "%"
-          },
-          "ZN": {
-            "label": "Zinc",
-            "quantity": 2.131838383838384,
-            "unit": "%"
-          },
-          "P": {
-            "label": "Phosphorus",
-            "quantity": 8.70888888888889,
-            "unit": "%"
-          },
-          "VITA_RAE": {
-            "label": "Vitamin A",
-            "quantity": 1.4725679012345678,
-            "unit": "%"
-          },
-          "VITC": {
-            "label": "Vitamin C",
-            "quantity": 34.98888888888889,
-            "unit": "%"
-          },
-          "THIA": {
-            "label": "Thiamin (B1)",
-            "quantity": 7.146185185185185,
-            "unit": "%"
-          },
-          "RIBF": {
-            "label": "Riboflavin (B2)",
-            "quantity": 8.585418803418804,
-            "unit": "%"
-          },
-          "NIA": {
-            "label": "Niacin (B3)",
-            "quantity": 3.3031555555555556,
-            "unit": "%"
-          },
-          "VITB6A": {
-            "label": "Vitamin B6",
-            "quantity": 17.209384615384614,
-            "unit": "%"
-          },
-          "FOLDFE": {
-            "label": "Folate equivalent (total)",
-            "quantity": 2.0075,
-            "unit": "%"
-          },
-          "VITB12": {
-            "label": "Vitamin B12",
-            "quantity": 0,
-            "unit": "%"
-          },
-          "VITD": {
-            "label": "Vitamin D",
-            "quantity": 0,
-            "unit": "%"
-          },
-          "TOCPHA": {
-            "label": "Vitamin E",
-            "quantity": 5.301066666666666,
-            "unit": "%"
-          },
-          "VITK1": {
-            "label": "Vitamin K",
-            "quantity": 6.311462962962963,
-            "unit": "%"
-          }
-        }
-      },
-      "id": 2
-    },
-    {
-      "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_7678bc46a2fe45aea925e295d8b1ad7c",
-      "isLiked": false,
-      "isSaved": true,
-      "card": {
-        "label": "Apple Cider Syrup recipes",
-        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/c37/c37d2a573acc40baddf2adc2ef090363?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBIaCXVzLWVhc3QtMSJHMEUCIQC6WZ%2Bi1BJzXLImEfOt8oLuE2fPKWgomxkwJJyFTFMuVQIgZX3nlDUM4tmIGQJO4IdlosPt2S8VTMDQHEVSC1NGEAgqgwQIu%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwxODcwMTcxNTA5ODYiDGa37TdjHT4w91vvYyrXAxoqqAZWLg4amA0a6RRkyb8KSlNdAhwINwh3ROP1%2B4aXxRNkv7EoJYSseCHPUbZHYRgZHgwWfLR%2FCoKPq3kUzlHlVRIiVIDSf66jKpureG8Ml8tX%2BZsXUpIabl4DyzYBmrQXD3HFOV5UWOwQxMbMGJgSY7l3xCOtUSd%2BjGS0eHCKbpim7PI%2FClSLsqSj2pT0uXvWvn1hrBYgjTcnMNscol6dWHYXaed%2BUUrBFUO9Iqm4mX1P0B8pfGM%2BYxKwajqAvJbnIr5ptRJ0v6x8JGeXXRd3GM8YTgVtPZah16%2FQyoOGkzJxT7lZRzt6nXq8Mkdi7DnfsT5qUQjSCZqatkloYMUWR4gBxVMzvW67CZ94kp6xLQWk6RtTLoB38ZYl29ahZxfQ8KixElbdJZ%2BZtRTvuFox1yp6fPos6GoBFv1W6P8jVJf7GL9%2FeTHBox2cokRb1GeaHz%2FuPI8y%2FWI2xo8RibSF1u9AeZv%2FcskamVlhXy25Epix%2FVOp5Q0qr1%2BqGPn6f0k5%2BYhI40WtrNTcv3BquuRPmvNJn4mWIUazh4lTtPZaihSgUv7FRy185sEfCzL0NFNG%2BREiZUe5rOg%2FL50O692BTynMitjcJTHpjtv0JwiqCo2MLNuMKzC%2BvO%2BSBjqlAUnfaXPpEVHsYdExKefU29f4h2h5MCSRHvMcx%2Bzd7zjjjpn9%2F9zRHS%2BYBWqha6%2FUOB0lYad5HjfAshOX%2FvbowxY04vsay%2BeyTaXympNsTGsQNKzBJTdczwPxMMpu%2B%2B2r0dJ7C7n8qEUdoc5xYUyyLF9g%2BlFrdwlmwdvfrvI9ciCihcmgKi0iRToY9NSnolTDDVog3bhzfOYYiG%2B%2F%2BsSmq5mNgYigQg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220417T103817Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFN32ZERSY%2F20220417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=1b69b17e94640af35f533088fb2e39b2a30fcb838312f8e047a38f6408514b62",
-        "cuisineType": [
-          "american"
-        ],
-        "ingredients": [
-          "2 cups Apple Cider",
-          "3 Tablespoons Light Corn Syrup",
-          "1 cup Loosely Packed Light Brown Sugar",
-          "2 sticks Cinnamon",
-          "1 Tablespoon Unsalted Butter"
-        ],
-        "nutrients": {
-          "ENERC_KCAL": {
-            "label": "Energy",
-            "quantity": 68.27990000000001,
-            "unit": "%"
-          },
-          "FAT": {
-            "label": "Fat",
-            "quantity": 19.013692307692306,
-            "unit": "%"
-          },
-          "FASAT": {
-            "label": "Saturated",
-            "quantity": 37.10658,
-            "unit": "%"
-          },
-          "CHOCDF": {
-            "label": "Carbs",
-            "quantity": 108.90886666666668,
-            "unit": "%"
-          },
-          "FIBTG": {
-            "label": "Fiber",
-            "quantity": 15.0128,
-            "unit": "%"
-          },
-          "PROCNT": {
-            "label": "Protein",
-            "quantity": 2.17636,
-            "unit": "%"
-          },
-          "CHOLE": {
-            "label": "Cholesterol",
-            "quantity": 10.176666666666666,
-            "unit": "%"
-          },
-          "NA": {
-            "label": "Sodium",
-            "quantity": 5.185083333333334,
-            "unit": "%"
-          },
-          "CA": {
-            "label": "Calcium",
-            "quantity": 28.6372,
-            "unit": "%"
-          },
-          "MG": {
-            "label": "Magnesium",
-            "quantity": 11.586666666666668,
-            "unit": "%"
-          },
-          "K": {
-            "label": "Potassium",
-            "quantity": 17.447659574468087,
-            "unit": "%"
-          },
-          "FE": {
-            "label": "Iron",
-            "quantity": 14.40377777777778,
-            "unit": "%"
-          },
-          "ZN": {
-            "label": "Zinc",
-            "quantity": 5.12309090909091,
-            "unit": "%"
-          },
-          "P": {
-            "label": "Phosphorus",
-            "quantity": 7.179428571428572,
-            "unit": "%"
-          },
-          "VITA_RAE": {
-            "label": "Vitamin A",
-            "quantity": 10.878666666666666,
-            "unit": "%"
-          },
-          "VITC": {
-            "label": "Vitamin C",
-            "quantity": 5.179555555555555,
-            "unit": "%"
-          },
-          "THIA": {
-            "label": "Thiamin (B1)",
-            "quantity": 12.079500000000001,
-            "unit": "%"
-          },
-          "RIBF": {
-            "label": "Riboflavin (B2)",
-            "quantity": 7.021538461538461,
-            "unit": "%"
-          },
-          "NIA": {
-            "label": "Niacin (B3)",
-            "quantity": 4.245674999999999,
-            "unit": "%"
-          },
-          "VITB6A": {
-            "label": "Vitamin B6",
-            "quantity": 14.47092307692308,
-            "unit": "%"
-          },
-          "FOLDFE": {
-            "label": "Folate equivalent (total)",
-            "quantity": 0.7345000000000002,
-            "unit": "%"
-          },
-          "VITB12": {
-            "label": "Vitamin B12",
-            "quantity": 1.0058333333333334,
-            "unit": "%"
-          },
-          "VITD": {
-            "label": "Vitamin D",
-            "quantity": 1.4199999999999997,
-            "unit": "%"
-          },
-          "TOCPHA": {
-            "label": "Vitamin E",
-            "quantity": 3.3312,
-            "unit": "%"
-          },
-          "VITK1": {
-            "label": "Vitamin K",
-            "quantity": 2.180333333333333,
-            "unit": "%"
-          }
-        }
-      },
-      "id": 3
-    },
-    {
-      "id": 4,
+      "id": 6,
+      "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_dbb3e904081eaeee6b130c4a81ade0eb",
       "isLiked": false,
       "isSaved": false,
       "card": {
-        "label": "Apple-Lemon-Ginger Juice",
-        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/184/184c38df36206ae9374cd8e7957d85b1.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBIaCXVzLWVhc3QtMSJHMEUCIQC6WZ%2Bi1BJzXLImEfOt8oLuE2fPKWgomxkwJJyFTFMuVQIgZX3nlDUM4tmIGQJO4IdlosPt2S8VTMDQHEVSC1NGEAgqgwQIu%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwxODcwMTcxNTA5ODYiDGa37TdjHT4w91vvYyrXAxoqqAZWLg4amA0a6RRkyb8KSlNdAhwINwh3ROP1%2B4aXxRNkv7EoJYSseCHPUbZHYRgZHgwWfLR%2FCoKPq3kUzlHlVRIiVIDSf66jKpureG8Ml8tX%2BZsXUpIabl4DyzYBmrQXD3HFOV5UWOwQxMbMGJgSY7l3xCOtUSd%2BjGS0eHCKbpim7PI%2FClSLsqSj2pT0uXvWvn1hrBYgjTcnMNscol6dWHYXaed%2BUUrBFUO9Iqm4mX1P0B8pfGM%2BYxKwajqAvJbnIr5ptRJ0v6x8JGeXXRd3GM8YTgVtPZah16%2FQyoOGkzJxT7lZRzt6nXq8Mkdi7DnfsT5qUQjSCZqatkloYMUWR4gBxVMzvW67CZ94kp6xLQWk6RtTLoB38ZYl29ahZxfQ8KixElbdJZ%2BZtRTvuFox1yp6fPos6GoBFv1W6P8jVJf7GL9%2FeTHBox2cokRb1GeaHz%2FuPI8y%2FWI2xo8RibSF1u9AeZv%2FcskamVlhXy25Epix%2FVOp5Q0qr1%2BqGPn6f0k5%2BYhI40WtrNTcv3BquuRPmvNJn4mWIUazh4lTtPZaihSgUv7FRy185sEfCzL0NFNG%2BREiZUe5rOg%2FL50O692BTynMitjcJTHpjtv0JwiqCo2MLNuMKzC%2BvO%2BSBjqlAUnfaXPpEVHsYdExKefU29f4h2h5MCSRHvMcx%2Bzd7zjjjpn9%2F9zRHS%2BYBWqha6%2FUOB0lYad5HjfAshOX%2FvbowxY04vsay%2BeyTaXympNsTGsQNKzBJTdczwPxMMpu%2B%2B2r0dJ7C7n8qEUdoc5xYUyyLF9g%2BlFrdwlmwdvfrvI9ciCihcmgKi0iRToY9NSnolTDDVog3bhzfOYYiG%2B%2F%2BsSmq5mNgYigQg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220417T103308Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFN32ZERSY%2F20220417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=929e115c0b6d8811d015faf116b3142866c95eb51d59e0ee4731bac34592cdfc",
+        "label": "Cured Egg Yolks",
+        "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_dbb3e904081eaeee6b130c4a81ade0eb",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/adf/adf11fc7d278a6dce0cd49680c0b05f8.png?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBUaCXVzLWVhc3QtMSJHMEUCIEep1abKXIhyydwOT9cihuWrMGe2q8KNRIcgmwTe2GuOAiEA7FkDt0m0eQw7F6owkejC36SDpNHKlisXYUgMuq3wYc8qgwQIvv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwxODcwMTcxNTA5ODYiDPdLat2SAfBKKKEBvCrXA8EkpdV2FXaWv9Om%2Fi9jRtk5MPzSFmFUnIOXKfR8D%2BA0VZq1R1nEyHqfUNsOnE%2FL6WFgJ%2Boj%2BDmUVcXOKgEw2SSkH556FdDJkUdCi3Z56fsGkyhJ%2BEe%2Fw9zh%2B%2BgjHmXz%2FqgfhuTeYah2LTY23d2%2Fz1%2Belgrm9%2Frzb9KgsSuFmwSkbLiOH77C4sRswtJbOA3LcnigKRLjBvms57eHJsb0Z4g8HPIemY5NkSsgxUEl66rScoa0yYMdmiGSIF43HMNIz64l3PbZ0UvjmSoI%2F3tdb%2Bvp1nprJb75ks8w5KLf4XZheiEcsAlZsEq1WF00T3tWOizfFBzTfHkvR3h0Cur3nIYuJIOHyyuw8pJZgQDS%2BlfAtt%2FvsWSvxldJ%2FqYAJ0zRjwQo826RfLssGt%2Fqx98rcsDBHzPxiLwm%2B4WtoFvwg%2F2f7RCkGFvB1g5uoRv2DaFJ1BT084hgooI14Uy0xIZPJBDhUPBZ7%2F%2B533fz0nA6Oqn7d2FMuqlTZ%2BwR43OUzj9jUb9Kt1H9CzVu%2B57KvDiLpKBijLtokmIl9hjxTapve553qZHwfd6hX8vt0u1HuICA081YTcz%2BXW55%2FuDxxDYk5HcwhzArLGT7PP01MZG2hgde1S%2Bhhtc5ajDFlfCSBjqlAckJBJ2VsHVLFdYf25n9vd7R%2FugsonNL4dVQwdOlcXz1GVUKRd89RCXaKV7mnSkG7kn6X3xvgPFgx30XYC%2FegNKY5G%2F7t9CoMorL5O4HqD4MH7W262qkDPyvPwxpAqQZDCHbCRS2ZYqGYI8lp6nPebhH5FlrIWxO%2BvnQnIZmTdoyXWMOA%2BnDSEvg9Jp7bcvHNhn1m9aOGFyVt33WwQg0POUhS1H2%2Bg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220417T124811Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFCY4Z66VT%2F20220417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=2d42d8a5b07a5f8ceaee2072616aac90da521596c9761a7fe2685fe2526d41d4",
         "cuisineType": [
           "american"
         ]

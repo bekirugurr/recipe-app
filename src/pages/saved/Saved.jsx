@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import RecipeCardComp from "../home/RecipeCardComp";
 import axios from "axios";
-import {MainContainer} from './SavedStyles'
+import { MainContainer, HomeImg, ImgDiv } from "./SavedStyles";
+import homeSvg from "../../assets/home.svg";
 
 const Saved = () => {
   const [jsonData, setJsonData] = useState([]);
@@ -17,26 +18,23 @@ const Saved = () => {
       });
   };
 
-useEffect(() => {
-  getFoodsInfos()
+  useEffect(() => {
+    getFoodsInfos();
+  }, []);
 
-}, [])
+  let savedFoods = jsonData?.filter((item) => item.isSaved);
 
-  const savedFoods = jsonData?.filter(item => item.isSaved)
-
-
-console.log('SAVED FOODS  ------> ', savedFoods);
-
+  console.log("SAVED FOODS  ------> ", !savedFoods);
 
   return (
     <div>
-     {savedFoods ? (
+      {savedFoods.length ? (
         <MainContainer>
           {savedFoods.map((item) => (
             <RecipeCardComp
               key={item.card.label}
               recipe={item.card}
-              jsonData={savedFoods}
+              savedFood={item}
             />
           ))}
         </MainContainer>
@@ -45,6 +43,7 @@ console.log('SAVED FOODS  ------> ', savedFoods);
           <HomeImg src={homeSvg} />
         </ImgDiv>
       )}
+      
     </div>
   );
 };
