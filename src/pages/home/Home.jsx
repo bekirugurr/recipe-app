@@ -15,8 +15,6 @@ const Home = () => {
   const [mealType, setMealType] = useState(mealTypes[0].toLowerCase());
   const [jsonData, setJsonData] = useState([]);
 
-  // const [likedFoods, setLikedFoods] = useState([]);
-  // const [savedFoods, setSavedFoods] = useState([]);
 
 
 //! JSON SERVER da beğenilen, kaydedilen tarifler ile kendi tariflerimizi tutma, alma, değiştirme
@@ -45,37 +43,10 @@ const getFoodsInfos = () => {axios
     getFoodsInfos();
   };
 
-  
-
-  // const getFoodsInfos = async () => {
-  //   try {
-  //     const { data } = await axios.get(baseUrl);
-  //     console.log(data);
-  //     setJsonData(data);
-  //   } catch (error) {
-  //     console.log("DB json hatası ->", error);
-  //   }
-  // };
 
   useEffect(() => {
     getFoodsInfos();
   }, []);
-
-  // const addJsonData = async (uri, isLiked = false, isSaved = false, card={}) => {
-  //   try {
-  //     await axios.post(`${baseUrl}`, {
-  //       uri: uri,
-  //       isLiked: isLiked,
-  //       isSaved: isSaved,
-  //       card: card
-  //     });
-  //   } catch (error) {
-  //     console.log("error about DBJSON -->", error);
-  //   }
-  // };
-
-  
-
 
   console.log("food", food);
   console.log("jsonData", jsonData);

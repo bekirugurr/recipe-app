@@ -19,10 +19,12 @@ const Saved = () => {
 
 useEffect(() => {
   getFoodsInfos()
+
 }, [])
 
+  const savedFoods = jsonData?.filter(item => item.isSaved)
 
-const savedFoods = jsonData.filter(item => item.isSaved)
+
 console.log('SAVED FOODS  ------> ', savedFoods);
 
 
@@ -34,7 +36,7 @@ console.log('SAVED FOODS  ------> ', savedFoods);
             <RecipeCardComp
               key={item.card.label}
               recipe={item.card}
-              jsonData={jsonData}
+              jsonData={savedFoods}
             />
           ))}
         </MainContainer>

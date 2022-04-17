@@ -36,22 +36,12 @@ const savedIconStyle = {
   cursor: "pointer",
 };
 
-const RecipeCardComp = ({
-  recipe,
-  // addJsonData,
-  jsonData,
-  // likedFoods,
-  // setLikedFoods,
-  // savedFoods,
-  // setSavedFoods,
-}) => {
+const RecipeCardComp = ({ recipe, jsonData }) => {
   const [isLiked, setIsLiked] = useState(false);
   const [isSaved, setIsSaved] = useState(false);
   const [isPosted, setIsPosted] = useState(false);
   const [recipeId, setRecipeId] = useState("");
-  // const [isLiked, setIsLiked] = useState(likedFoods.includes(recipe.label));
-  // const [isSaved, setIsSaved] = useState(savedFoods.includes(recipe.label));
-  //const [isHideShareBar, setIsHideShareBar] = useState(true);
+  const [isHideShareBar, setIsHideShareBar] = useState(true);
 
   console.log(isLiked, isSaved);
 
@@ -59,7 +49,6 @@ const RecipeCardComp = ({
   const moreClick = () => {
     navigate("/details", { state: { recipe } });
   };
-  //console.log(likedFoods);
 
   //! Yemek isimlerinin sonunda bazısının recipe bazısının ise recipes yazıyordu. Böyle olanları traşladım
   const recipeHeader =
@@ -82,19 +71,21 @@ const RecipeCardComp = ({
           label: recipe.label,
           image: recipe.image,
           cuisineType: recipe.cuisineType,
+          ingredients: recipe.ingredientLines,
+          nutrients: recipe.totalDaily,
         },
       })
       .then((res) => {
         setRecipeId(res.data.id);
         console.log(res.data);
+        setIsPosted(true);
       })
       .catch((error) => console.log("addJsonData error -->", error));
-    setIsPosted(true);
   };
 
-  const changeJsonData = async (id, uri, isLiked, isSaved, recipe) => {
-    try {
-      await axios.put(`${baseUrl}/${id}`, {
+  const changeJsonData = (id, uri, isLiked, isSaved, recipe) => {
+    axios
+      .put(`${baseUrl}/${id}`, {
         id: id,
         uri: uri,
         isLiked: isLiked,
@@ -103,11 +94,14 @@ const RecipeCardComp = ({
           label: recipe.label,
           image: recipe.image,
           cuisineType: recipe.cuisineType,
+          ingredients: recipe.ingredientLines,
+          nutrients: recipe.totalDaily,
         },
-      });
-    } catch (error) {
-      console.log("error about DBJSON -->", error);
-    }
+      })
+      .then((res) => {
+        console.log(res.data);
+      })
+      .catch((error) => console.log("addJsonData error -->", error));
   };
 
   useEffect(() => {
@@ -149,36 +143,48 @@ const RecipeCardComp = ({
       <RecipeHeader>{recipeHeader}</RecipeHeader>
       <RecipeImage src={recipe?.image || defaultImage} />
 
-      <SideBar /* style={isHideShareBar ? {display:'flex'} : {display:'none'}} */
-      >
-        <IconWrapper /* onClick={setIsHideShareBar(false)} */>
-          <FiShare2 style={cardIconStyles} />
-        </IconWrapper>
-        <IconWrapper onClick={handleLike}>
-          {isLiked ? (
-            <FaHeart style={{ ...cardIconStyles, color: "crimson" }} />
-          ) : (
-            <FaRegHeart style={cardIconStyles} />
-          )}
-        </IconWrapper>
-        {!isSaved && (
-          <IconWrapper onClick={handleSave}>
-            <FaRegBookmark style={{ ...cardIconStyles, marginBottom: "0" }} />
+      {isHideShareBar ? (
+        <SideBar>
+          <IconWrapper  onClick={(e)=>{
+            e.stopPropagation();
+            setIsHideShareBar(!isHideShareBar);
+            }}>
+            <FiShare2 style={cardIconStyles} />
           </IconWrapper>
-        )}
-      </SideBar>
-
-      {/* <ShareBar  style={isHideShareBar ? {display:'none'} : {display:'flex'}} >
-        <IconWrapper>
-          <RiWhatsappFill style={{ ...cardIconStyles, color: "green" }} />
-        </IconWrapper>
-        <IconWrapper>
-          <FaTwitter style={{ ...cardIconStyles, color: "#1DA1F2" }} />
-        </IconWrapper>
-        <IconWrapper>
-          <GrInstagram style={{ ...cardIconStyles, color: "#E7444B" }} />
-        </IconWrapper>
-      </ShareBar>*/}
+          <IconWrapper onClick={handleLike}>
+            {isLiked ? (
+              <FaHeart style={{ ...cardIconStyles, color: "crimson" }} />
+            ) : (
+              <FaRegHeart style={cardIconStyles} />
+            )}
+          </IconWrapper>
+          {!isSaved && (
+            <IconWrapper onClick={handleSave}>
+              <FaRegBookmark style={{ ...cardIconStyles, marginBottom: "0" }} />
+            </IconWrapper>
+          )}
+        </SideBar>
+      ) : (
+        <ShareBar 
+          style={isHideShareBar ? { display: "none" } : { display: "flex" }}
+         >
+            <IconWrapper  onClick={(e)=>{
+            e.stopPropagation();
+            setIsHideShareBar(!isHideShareBar);
+            }} style={{backgroundColor:'#597d7db9'}}>
+            <FiShare2 style={cardIconStyles} />
+          </IconWrapper>
+          <IconWrapper>
+            <RiWhatsappFill style={{ ...cardIconStyles, color: "green" }} />
+          </IconWrapper>
+          <IconWrapper>
+            <FaTwitter style={{ ...cardIconStyles, color: "#1DA1F2" }} />
+          </IconWrapper>
+          <IconWrapper>
+            <GrInstagram style={{ ...cardIconStyles, color: "#E7444B" }} />
+          </IconWrapper>
+        </ShareBar>
+      )}
 
       {isSaved && (
         <SavedDiv onClick={handleSave}>

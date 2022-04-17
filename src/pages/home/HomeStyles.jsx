@@ -137,9 +137,9 @@ export const SavedDiv = styled.div`
 
 export const ShareBar = styled.div`
   position: absolute;
-  //background-color: cyan;
+  //background-color: #597d7dd4;
   width: 3rem;
-  height: 10rem;
+  height: 13rem;
   right: 5px;
   top: 1rem;
   display: flex;
