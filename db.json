@@ -1,0 +1,82 @@
+{
+  "foods": [
+    {
+      "id": 1,
+      "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_733ed0d22ad7f737ef9d149726a303ff",
+      "isLiked": false,
+      "isSaved": true,
+      "card": {
+        "label": "Apple-Lemon-Ginger Juice",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/184/184c38df36206ae9374cd8e7957d85b1.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQDtCpz5mJS3lywuD28UVxUIoImcEPhYiVYAGfRBdiwKcQIhAJZSAMBKy1vU%2BB3k9UlePjHGaVqQ%2B8sMPtZR7cjxiA60KoMECJP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgwEZlcw8wd6cUehybcq1wMHI1Fh0eIOLogEcRdQQHyak74KKS6F%2BIj8xSeAc2L868ZKLXraeDlpZkQ2CXhn19U9yz%2FxQMB6GQkAlanp%2BunlFWynB0gP3%2FIKDo1BZowsJ9crSqS1tGKu9kgB2EVLECA28KmZ3m7h%2FPzVk0epME1XtFWTKukQiupodbQotI1%2BKsKzUP7yFHwTlF5IGJpnJBLD9Cxum6QX8Qz3oTKgx9ShmgSCLpTbtcpb3ahk4%2Fkd%2Fh0d%2BYcxKMNQ9My3Vztvf9eaiEtV8cf%2F6KTK1QHUsDNpRXwpM4BJTjO3bjvNvg6S93ZT%2BDwwSmjCkoyBeeKgXSylxNnr0%2FG4qUngiGwD5DXlHo5Du8EsLLXEdPLODL8kNfh1D%2Bruqi54zwXyJdfmylwVIAc8ZgzgjRBr%2Bc5rvLM244bDHDYpRnOKCgr1YwR4WraVUNPWGsaKKP2fD0Ty2YAN40jXkJ0qzncmRa8RxunTuV2gOumuEaTeSe3HiKp%2F2lMfsV2CzEhRZ6Y3Ui79ezfrHnyUdB3chikN8dEYyj3G3WH63zYpzrKx1sF4s0%2B0xsQjFb3Dnl0VZ%2FAMjHH63joGkjy6gh6QvOH3Q9IpkyvJ8ss0qOgsxoPxvQQKA4ZTkl0DGXOWkYswtdzmkgY6pAFGJ4cL2LnF7cGpkSU2MGTa2%2FHhgWQHaem830y59YBBHYorcul3iLmkw9kARa6gWJtKa4fnJFfzf%2FLnKyBjoKJ%2Fcai2M7dA%2FguOkxX2T9QiQ6ZFbe3w9Zz0B8DBI6bnfoNxWSE0b8t%2FnEx8aJlQgZbMSzp%2F97%2FWkdARFsw72%2BxH3N2XH5RrrKJHLpJjVpNUo1oBzxP6QphxcK6zZqCLffc4HBiHzg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220415T175733Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFLSVAQ5CC%2F20220415%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=9d1c83007a0cad053bf1f05b3e4f2c5e3bd25f8fb543726a79484a31773ccc73",
+        "cuisineType": [
+          "american"
+        ]
+      }
+    },
+    {
+      "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_a82a9929e787d0ddf7adf3c5c5ce5286",
+      "isLiked": true,
+      "isSaved": false,
+      "card": {
+        "label": "Apple Cheese Wraps",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/a66/a66c59fa7e7ef5cda2e145060748f905.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQDtCpz5mJS3lywuD28UVxUIoImcEPhYiVYAGfRBdiwKcQIhAJZSAMBKy1vU%2BB3k9UlePjHGaVqQ%2B8sMPtZR7cjxiA60KoMECJP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgwEZlcw8wd6cUehybcq1wMHI1Fh0eIOLogEcRdQQHyak74KKS6F%2BIj8xSeAc2L868ZKLXraeDlpZkQ2CXhn19U9yz%2FxQMB6GQkAlanp%2BunlFWynB0gP3%2FIKDo1BZowsJ9crSqS1tGKu9kgB2EVLECA28KmZ3m7h%2FPzVk0epME1XtFWTKukQiupodbQotI1%2BKsKzUP7yFHwTlF5IGJpnJBLD9Cxum6QX8Qz3oTKgx9ShmgSCLpTbtcpb3ahk4%2Fkd%2Fh0d%2BYcxKMNQ9My3Vztvf9eaiEtV8cf%2F6KTK1QHUsDNpRXwpM4BJTjO3bjvNvg6S93ZT%2BDwwSmjCkoyBeeKgXSylxNnr0%2FG4qUngiGwD5DXlHo5Du8EsLLXEdPLODL8kNfh1D%2Bruqi54zwXyJdfmylwVIAc8ZgzgjRBr%2Bc5rvLM244bDHDYpRnOKCgr1YwR4WraVUNPWGsaKKP2fD0Ty2YAN40jXkJ0qzncmRa8RxunTuV2gOumuEaTeSe3HiKp%2F2lMfsV2CzEhRZ6Y3Ui79ezfrHnyUdB3chikN8dEYyj3G3WH63zYpzrKx1sF4s0%2B0xsQjFb3Dnl0VZ%2FAMjHH63joGkjy6gh6QvOH3Q9IpkyvJ8ss0qOgsxoPxvQQKA4ZTkl0DGXOWkYswtdzmkgY6pAFGJ4cL2LnF7cGpkSU2MGTa2%2FHhgWQHaem830y59YBBHYorcul3iLmkw9kARa6gWJtKa4fnJFfzf%2FLnKyBjoKJ%2Fcai2M7dA%2FguOkxX2T9QiQ6ZFbe3w9Zz0B8DBI6bnfoNxWSE0b8t%2FnEx8aJlQgZbMSzp%2F97%2FWkdARFsw72%2BxH3N2XH5RrrKJHLpJjVpNUo1oBzxP6QphxcK6zZqCLffc4HBiHzg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220415T175620Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFLSVAQ5CC%2F20220415%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=8176d0c1b915c3352c48d6dacd113daf2181e32373113f24b842472e9ac4b776",
+        "cuisineType": [
+          "american"
+        ]
+      },
+      "id": 2
+    },
+    {
+      "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_1f3d0f0c02ccf13075ef5bea63f8a63a",
+      "isLiked": false,
+      "isSaved": true,
+      "card": {
+        "label": "Apple Quesadillas",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/b1c/b1ce7a7440d581160b61105c7986d8eb.jpeg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQDtCpz5mJS3lywuD28UVxUIoImcEPhYiVYAGfRBdiwKcQIhAJZSAMBKy1vU%2BB3k9UlePjHGaVqQ%2B8sMPtZR7cjxiA60KoMECJP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgwEZlcw8wd6cUehybcq1wMHI1Fh0eIOLogEcRdQQHyak74KKS6F%2BIj8xSeAc2L868ZKLXraeDlpZkQ2CXhn19U9yz%2FxQMB6GQkAlanp%2BunlFWynB0gP3%2FIKDo1BZowsJ9crSqS1tGKu9kgB2EVLECA28KmZ3m7h%2FPzVk0epME1XtFWTKukQiupodbQotI1%2BKsKzUP7yFHwTlF5IGJpnJBLD9Cxum6QX8Qz3oTKgx9ShmgSCLpTbtcpb3ahk4%2Fkd%2Fh0d%2BYcxKMNQ9My3Vztvf9eaiEtV8cf%2F6KTK1QHUsDNpRXwpM4BJTjO3bjvNvg6S93ZT%2BDwwSmjCkoyBeeKgXSylxNnr0%2FG4qUngiGwD5DXlHo5Du8EsLLXEdPLODL8kNfh1D%2Bruqi54zwXyJdfmylwVIAc8ZgzgjRBr%2Bc5rvLM244bDHDYpRnOKCgr1YwR4WraVUNPWGsaKKP2fD0Ty2YAN40jXkJ0qzncmRa8RxunTuV2gOumuEaTeSe3HiKp%2F2lMfsV2CzEhRZ6Y3Ui79ezfrHnyUdB3chikN8dEYyj3G3WH63zYpzrKx1sF4s0%2B0xsQjFb3Dnl0VZ%2FAMjHH63joGkjy6gh6QvOH3Q9IpkyvJ8ss0qOgsxoPxvQQKA4ZTkl0DGXOWkYswtdzmkgY6pAFGJ4cL2LnF7cGpkSU2MGTa2%2FHhgWQHaem830y59YBBHYorcul3iLmkw9kARa6gWJtKa4fnJFfzf%2FLnKyBjoKJ%2Fcai2M7dA%2FguOkxX2T9QiQ6ZFbe3w9Zz0B8DBI6bnfoNxWSE0b8t%2FnEx8aJlQgZbMSzp%2F97%2FWkdARFsw72%2BxH3N2XH5RrrKJHLpJjVpNUo1oBzxP6QphxcK6zZqCLffc4HBiHzg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220415T175620Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFLSVAQ5CC%2F20220415%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=72e69856a51c0a46b90138ed5fe4333d0270acc8eb50dda2d0ece0c19b32eed0",
+        "cuisineType": [
+          "mexican"
+        ]
+      },
+      "id": 3
+    },
+    {
+      "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_4f1d223cf3c5f30b53c6d972d2ea98ec",
+      "isLiked": true,
+      "isSaved": false,
+      "card": {
+        "label": "Egg Nests recipes",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/4ea/4ea44da2c9c5b7f712b4a93840a2607d?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQDtCpz5mJS3lywuD28UVxUIoImcEPhYiVYAGfRBdiwKcQIhAJZSAMBKy1vU%2BB3k9UlePjHGaVqQ%2B8sMPtZR7cjxiA60KoMECJP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgwEZlcw8wd6cUehybcq1wMHI1Fh0eIOLogEcRdQQHyak74KKS6F%2BIj8xSeAc2L868ZKLXraeDlpZkQ2CXhn19U9yz%2FxQMB6GQkAlanp%2BunlFWynB0gP3%2FIKDo1BZowsJ9crSqS1tGKu9kgB2EVLECA28KmZ3m7h%2FPzVk0epME1XtFWTKukQiupodbQotI1%2BKsKzUP7yFHwTlF5IGJpnJBLD9Cxum6QX8Qz3oTKgx9ShmgSCLpTbtcpb3ahk4%2Fkd%2Fh0d%2BYcxKMNQ9My3Vztvf9eaiEtV8cf%2F6KTK1QHUsDNpRXwpM4BJTjO3bjvNvg6S93ZT%2BDwwSmjCkoyBeeKgXSylxNnr0%2FG4qUngiGwD5DXlHo5Du8EsLLXEdPLODL8kNfh1D%2Bruqi54zwXyJdfmylwVIAc8ZgzgjRBr%2Bc5rvLM244bDHDYpRnOKCgr1YwR4WraVUNPWGsaKKP2fD0Ty2YAN40jXkJ0qzncmRa8RxunTuV2gOumuEaTeSe3HiKp%2F2lMfsV2CzEhRZ6Y3Ui79ezfrHnyUdB3chikN8dEYyj3G3WH63zYpzrKx1sF4s0%2B0xsQjFb3Dnl0VZ%2FAMjHH63joGkjy6gh6QvOH3Q9IpkyvJ8ss0qOgsxoPxvQQKA4ZTkl0DGXOWkYswtdzmkgY6pAFGJ4cL2LnF7cGpkSU2MGTa2%2FHhgWQHaem830y59YBBHYorcul3iLmkw9kARa6gWJtKa4fnJFfzf%2FLnKyBjoKJ%2Fcai2M7dA%2FguOkxX2T9QiQ6ZFbe3w9Zz0B8DBI6bnfoNxWSE0b8t%2FnEx8aJlQgZbMSzp%2F97%2FWkdARFsw72%2BxH3N2XH5RrrKJHLpJjVpNUo1oBzxP6QphxcK6zZqCLffc4HBiHzg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220415T175723Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFLSVAQ5CC%2F20220415%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=6b92626f6f7dc9bea26c5c993e0b321edff4c6327ef4691ca2162f4e21bb622e",
+        "cuisineType": [
+          "american"
+        ]
+      },
+      "id": 4
+    },
+    {
+      "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_555ecd7b216b8fa941384415a8053d61",
+      "isLiked": false,
+      "isSaved": true,
+      "card": {
+        "label": "Egg Pancakes",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/e54/e5458b2969f07a9315a474fc842f035c.jpg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQDtCpz5mJS3lywuD28UVxUIoImcEPhYiVYAGfRBdiwKcQIhAJZSAMBKy1vU%2BB3k9UlePjHGaVqQ%2B8sMPtZR7cjxiA60KoMECJP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgwEZlcw8wd6cUehybcq1wMHI1Fh0eIOLogEcRdQQHyak74KKS6F%2BIj8xSeAc2L868ZKLXraeDlpZkQ2CXhn19U9yz%2FxQMB6GQkAlanp%2BunlFWynB0gP3%2FIKDo1BZowsJ9crSqS1tGKu9kgB2EVLECA28KmZ3m7h%2FPzVk0epME1XtFWTKukQiupodbQotI1%2BKsKzUP7yFHwTlF5IGJpnJBLD9Cxum6QX8Qz3oTKgx9ShmgSCLpTbtcpb3ahk4%2Fkd%2Fh0d%2BYcxKMNQ9My3Vztvf9eaiEtV8cf%2F6KTK1QHUsDNpRXwpM4BJTjO3bjvNvg6S93ZT%2BDwwSmjCkoyBeeKgXSylxNnr0%2FG4qUngiGwD5DXlHo5Du8EsLLXEdPLODL8kNfh1D%2Bruqi54zwXyJdfmylwVIAc8ZgzgjRBr%2Bc5rvLM244bDHDYpRnOKCgr1YwR4WraVUNPWGsaKKP2fD0Ty2YAN40jXkJ0qzncmRa8RxunTuV2gOumuEaTeSe3HiKp%2F2lMfsV2CzEhRZ6Y3Ui79ezfrHnyUdB3chikN8dEYyj3G3WH63zYpzrKx1sF4s0%2B0xsQjFb3Dnl0VZ%2FAMjHH63joGkjy6gh6QvOH3Q9IpkyvJ8ss0qOgsxoPxvQQKA4ZTkl0DGXOWkYswtdzmkgY6pAFGJ4cL2LnF7cGpkSU2MGTa2%2FHhgWQHaem830y59YBBHYorcul3iLmkw9kARa6gWJtKa4fnJFfzf%2FLnKyBjoKJ%2Fcai2M7dA%2FguOkxX2T9QiQ6ZFbe3w9Zz0B8DBI6bnfoNxWSE0b8t%2FnEx8aJlQgZbMSzp%2F97%2FWkdARFsw72%2BxH3N2XH5RrrKJHLpJjVpNUo1oBzxP6QphxcK6zZqCLffc4HBiHzg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220415T175723Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFLSVAQ5CC%2F20220415%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=bbda5ef4808b8c460abe75745db44abd2b4e6a2c48c82a4a4653983bec4d9e78",
+        "cuisineType": [
+          "american"
+        ]
+      },
+      "id": 5
+    },
+    {
+      "id": 6,
+      "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_dbb3e904081eaeee6b130c4a81ade0eb",
+      "isLiked": true,
+      "isSaved": true,
+      "card": {
+        "label": "Cured Egg Yolks",
+        "image": "https://edamam-product-images.s3.amazonaws.com/web-img/adf/adf11fc7d278a6dce0cd49680c0b05f8.png?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQDtCpz5mJS3lywuD28UVxUIoImcEPhYiVYAGfRBdiwKcQIhAJZSAMBKy1vU%2BB3k9UlePjHGaVqQ%2B8sMPtZR7cjxiA60KoMECJP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgwEZlcw8wd6cUehybcq1wMHI1Fh0eIOLogEcRdQQHyak74KKS6F%2BIj8xSeAc2L868ZKLXraeDlpZkQ2CXhn19U9yz%2FxQMB6GQkAlanp%2BunlFWynB0gP3%2FIKDo1BZowsJ9crSqS1tGKu9kgB2EVLECA28KmZ3m7h%2FPzVk0epME1XtFWTKukQiupodbQotI1%2BKsKzUP7yFHwTlF5IGJpnJBLD9Cxum6QX8Qz3oTKgx9ShmgSCLpTbtcpb3ahk4%2Fkd%2Fh0d%2BYcxKMNQ9My3Vztvf9eaiEtV8cf%2F6KTK1QHUsDNpRXwpM4BJTjO3bjvNvg6S93ZT%2BDwwSmjCkoyBeeKgXSylxNnr0%2FG4qUngiGwD5DXlHo5Du8EsLLXEdPLODL8kNfh1D%2Bruqi54zwXyJdfmylwVIAc8ZgzgjRBr%2Bc5rvLM244bDHDYpRnOKCgr1YwR4WraVUNPWGsaKKP2fD0Ty2YAN40jXkJ0qzncmRa8RxunTuV2gOumuEaTeSe3HiKp%2F2lMfsV2CzEhRZ6Y3Ui79ezfrHnyUdB3chikN8dEYyj3G3WH63zYpzrKx1sF4s0%2B0xsQjFb3Dnl0VZ%2FAMjHH63joGkjy6gh6QvOH3Q9IpkyvJ8ss0qOgsxoPxvQQKA4ZTkl0DGXOWkYswtdzmkgY6pAFGJ4cL2LnF7cGpkSU2MGTa2%2FHhgWQHaem830y59YBBHYorcul3iLmkw9kARa6gWJtKa4fnJFfzf%2FLnKyBjoKJ%2Fcai2M7dA%2FguOkxX2T9QiQ6ZFbe3w9Zz0B8DBI6bnfoNxWSE0b8t%2FnEx8aJlQgZbMSzp%2F97%2FWkdARFsw72%2BxH3N2XH5RrrKJHLpJjVpNUo1oBzxP6QphxcK6zZqCLffc4HBiHzg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220415T175723Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFLSVAQ5CC%2F20220415%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=a6a4be3634cc313a9ba5b76cc5a8a8c9ed6d4f998971f4437ff0d3123148b635",
+        "cuisineType": [
+          "american"
+        ]
+      }
+    }
+  ]
+}
